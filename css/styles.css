@@ -67,7 +67,7 @@ a {
 }
 
 .banner {
-  background-image: url(/img/portada.png);
+  background-image: url("https://raw.githubusercontent.com/sgcm14/petshop-maquetado/master/img/portada.png");
   background-position: center;
   background-size: cover;
   height: 350px;
