@@ -3,8 +3,12 @@ body {
   margin: 0px;
 }
 
-.fa-paw {
+.fas {
   color: white;
+}
+
+.fa-bars {
+  display: none !important;
 }
 
 .orange {
@@ -45,8 +49,7 @@ ul {
   padding: 10px 20px
 }
 
-.logo-container {
-}
+.logo-container {}
 
 .first-nav ul {
   display: flex;
@@ -199,6 +202,7 @@ form button {
 .suscribe-text {
   display: flex;
   align-items: center;
+  color: white;
   width: 50%;
   gap: 10px;
 }
@@ -268,3 +272,65 @@ form button {
 }
 
 .redes {}
+
+@media (max-width: 500px) {
+  .nav-lang {
+    display: none;
+  }
+  .first-nav ul {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block !important;
+  }
+
+  .content-nav-star {
+    flex-direction: column;
+  }
+
+  .content-left {
+    display: none;
+  }
+
+  .content-right {
+    width: 100%;
+    align-items: flex-end;
+    margin-right: 20px;
+  }
+
+  .content-right button {
+    margin-right: 15px;
+  }
+
+  .container-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .container-buttons button {
+    width: 48%;
+  }
+
+  .suscribe {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .suscribe-text {
+    width: auto;
+  }
+
+  .form-suscribe {
+    width: auto;
+    justify-content: flex-end;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .content-contact {
+    order: 2;
+    margin-top: 10px;
+  }
+}
