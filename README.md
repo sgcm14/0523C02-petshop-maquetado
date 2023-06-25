@@ -9,10 +9,10 @@ Petshop-maquetado
 --------------
  Una de las principales tareas de un desarrollador front end es estructurar interfaces a partir de un wireframe o una imagen. El desafío será reconocer las diferentes etiquetas que podrían conformar el maquetado y comenzar a estructurar un archivo hasta obtener un resultado visual similar a la referencia. En esta y las siguientes clases integradoras trabajaremos sobre un proyecto cuyo resultado final será el presentado en el siguiente figma.
 
- ![](https://raw.githubusercontent.com/sgcm14/pizza-maquetado/master/desktop.png)
+ ![](https://raw.githubusercontent.com/sgcm14/petshop-maquetado/master/img/desktop.png)
 > Pantalla de **Desktop**
 
-![](https://raw.githubusercontent.com/sgcm14/pizza-maquetado/master/desktop.png)
+![](https://raw.githubusercontent.com/sgcm14/petshop-maquetado/master/img/mobile.png)
 > Pantalla de **Mobile**
 
 
