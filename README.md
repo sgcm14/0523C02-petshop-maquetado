@@ -15,33 +15,36 @@ Petshop-maquetado
 ![](https://raw.githubusercontent.com/sgcm14/petshop-maquetado/master/img/mobile.png)
 > Pantalla de **Mobile**
 
+En esta clase estaremos repasando las particularidades de SASS, un preprocesador que nos permitirá generar hojas de estilo utilizando características propias de un lenguaje de programación tales como funciones, condicionales, variables, entre otras.
+Una de las principales ventajas de utilizar SASS, es que podemos escribir códigos mucho más comprensibles que luego se convertirán en un CSS legible por los navegadores.
+También podremos modularizar nuestro código para facilitar tareas de mantenimiento.
 
 **Desafío:**
 ------------
 
-Dados los siguientes datos, maquetar el HTML incluyendo en el <body> una estructura semántica y utilizando los conceptos conocidos hasta ahora. Se pueden extraer las imágenes del mismo documento figma.
-
+* Dados los siguientes datos, maquetar el HTML incluyendo en el **< body >** una estructura semántica y utilizando los conceptos conocidos hasta ahora. Se pueden extraer las imágenes del mismo documento figma.
 Hasta el momento, tenemos maquetado con HTML nuestro proyecto de Petshop. En este desafío, incorporaremos nuevas etiquetas y estilos CSS.
 
-**HTML:**
-- Agregar al footer un área para los íconos sociales. 
-- En el menú utilizar fontawesome para el listado. 
+    **HTML:**
+    - Agregar al footer un área para los íconos sociales. 
+    - En el menú utilizar fontawesome para el listado. 
 
-**CSS:** 
-- Colores a selectores y fuentes. 
-- Fondo a la sección banner. 
-- Fuentes web con la familia que indica Figma. 
-- Estilos e íconos para que se vea igual que en el boceto.
+    **CSS:** 
+    - Colores a selectores y fuentes. 
+    - Fondo a la sección banner. 
+    - Fuentes web con la familia que indica Figma. 
+    - Estilos e íconos para que se vea igual que en el boceto.
 
-En esta oportunidad haremos que nuestra tienda sea responsive añadiendo la
-media query correspondiente a mobile. Como en las anteriores oportunidades, los datos necesarios están disponibles en Figma.
+* En esta oportunidad haremos que nuestra tienda sea responsive añadiendo la media query correspondiente a mobile. Como en las anteriores oportunidades, los datos necesarios están disponibles en Figma.
 Recordá que en las reglas **@media** solo reescribimos lo que necesariamente deba ser modificado
 
-Es esta oportunidad añadiremos formularios a nuestra tienda. Para lograrlo recordá: 
-- Repasar el diseño en Figma para ver qué elementos necesitamos usar. 
-- Añadir las etiquetas correspondientes al HTML. 
-- Añadir los estilos al CSS. En este caso también deberás incluir los pseudoselectores necesarios para dar interactividad y validación a los campos. 
-- Añadir los íconos de patita al menú principal, desde el CSS, haciendo uso del pseudoelemento que consideres oportuno.
+* En esta oportunidad añadiremos formularios a nuestra tienda. Para lograrlo recordá: 
+    - Repasar el diseño en Figma para ver qué elementos necesitamos usar. 
+    - Añadir las etiquetas correspondientes al HTML. 
+    - Añadir los estilos al CSS. En este caso también deberás incluir los pseudoselectores necesarios para dar interactividad y validación a los campos. 
+    - Añadir los íconos de patita al menú principal, desde el CSS, haciendo uso del pseudoelemento que consideres oportuno.
+
+* Crearemos estos estilos nuevamente utilizando el preprocesador SASS visto en las clases de esta semana. Tené en cuenta renombrar tu css anterior para no perderlo.
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
 

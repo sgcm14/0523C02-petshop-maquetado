@@ -1,0 +1,31 @@
+@import './font';
+@import './colors';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  height: 30px;
+  padding: 0 15px;
+}
